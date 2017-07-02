@@ -1,0 +1,25 @@
+{
+  "name": "sound-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "budo index.js:bundle.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaskar/sound-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitaskar/sound-experiment/issues"
+  },
+  "homepage": "https://github.com/nikitaskar/sound-experiment#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "budo": "^10.0.3",
+    "three": "^0.86.0"
+  }
+}
